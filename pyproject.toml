@@ -1,0 +1,11 @@
+[project]
+name = "ai-job-search-agent"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain",
+    "langchain-groq",
+    "langchain-tavily",
+    "pydantic",
+    "python-dotenv",
+]
